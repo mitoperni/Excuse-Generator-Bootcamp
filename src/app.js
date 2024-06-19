@@ -73,8 +73,9 @@ const counterExceded = () => {
     document.querySelector("#getNewExcuse").classList.add("disabled");
     document.querySelector("#getNewExcuse").innerHTML = textCounterExceded;
     document.querySelector("#mainImage").src =
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ewIjREIon436sMnSMbS2WHXo5mFMUG7b0Q&s";
+      "https://iconspng.com/_next/image?url=https%3A%2F%2Ficonspng.com%2Fimages%2Fabu-is-angry.jpg&w=1080&q=75";
     document.querySelector("#mainh1").innerHTML = "TE PASAS DE PENDEJO!!";
+    document.querySelector("#excuse").classList.add("d-none");
   }
 };
 
