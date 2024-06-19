@@ -71,9 +71,11 @@ const counterExceded = () => {
       .classList.remove("btn-outline-success");
     document.querySelector("#getNewExcuse").classList.add("btn-danger");
     document.querySelector("#getNewExcuse").classList.add("disabled");
+    document.querySelector("#getNewExcuse").classList.add("mt-5");
     document.querySelector("#getNewExcuse").innerHTML = textCounterExceded;
     document.querySelector("#mainImage").src =
       "https://iconspng.com/_next/image?url=https%3A%2F%2Ficonspng.com%2Fimages%2Fabu-is-angry.jpg&w=1080&q=75";
+    document.querySelector("#mainImage").classList.add("mt-5");
     document.querySelector("#mainh1").innerHTML = "TE PASAS DE PENDEJO!!";
     document.querySelector("#excuse").classList.add("d-none");
   }
