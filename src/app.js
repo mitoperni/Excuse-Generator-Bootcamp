@@ -56,6 +56,10 @@ const excuseDataset = () =>
     .join()
     .replaceAll(",", " "));
 
+document
+  .querySelector("#getNewExcuse")
+  .addEventListener("click", excuseDataset);
+
 window.onload = function() {
   //write your code here
   excuseDataset();
