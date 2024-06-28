@@ -48,13 +48,14 @@ const when = [
   "en el último sprint"
 ];
 
-const getRandomNumber = arr => arr[Math.floor(Math.random() * arr.length)];
+const getRandomPosisitionOfArrays = arr =>
+  arr[Math.floor(Math.random() * arr.length)];
 
 const dataset = [who, action, what, when];
 
 const excuseDataset = () => {
   document.querySelector("#excuse").innerHTML = dataset
-    .map(el => getRandomNumber(el))
+    .map(el => getRandomPosisitionOfArrays(el))
     .join()
     .replaceAll(",", " ");
 };
